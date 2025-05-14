@@ -27,6 +27,46 @@
           "property": "icon",
           "values": [
             {
+              "key": "AMBULANZA",
+              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/ambulanza.png)",
+              "options": {
+                "iconSize": [
+                  24,
+                  24
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "icon",
+          "values": [
+            {
+              "key": "ASSISTENZA",
+              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/assistenza.png)",
+              "options": {
+                "iconSize": [
+                  24,
+                  24
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "icon",
+          "values": [
+            {
               "key": "BAGNI",
               "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/restroom.png)",
               "options": {
