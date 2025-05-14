@@ -8,7 +8,7 @@
           "values": [
             {
               "key": "MAXISCHERMO",
-              "value": "url(./assets/pope/screen.png)",
+              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/screen.png)",
               "options": {
                 "iconSize": [
                   24,
@@ -28,7 +28,7 @@
           "values": [
             {
               "key": "BAGNI",
-              "value": "url(./assets/pope/restroom.png)",
+              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/restroom.png)",
               "options": {
                 "iconSize": [
                   24,
@@ -48,7 +48,7 @@
           "values": [
             {
               "key": "PMA",
-              "value": "url(./assets/pope/pma.png)",
+              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/pma.png)",
               "options": {
                 "iconSize": [
                   24,
