@@ -1,0 +1,143 @@
+{
+  "style_properties": [
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "icon",
+          "values": [
+            {
+              "key": "MAXISCHERMO",
+              "value": "url(./assets/pope/screen.png)",
+              "options": {
+                "iconSize": [
+                  24,
+                  24
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "icon",
+          "values": [
+            {
+              "key": "BAGNI",
+              "value": "url(./assets/pope/restroom.png)",
+              "options": {
+                "iconSize": [
+                  24,
+                  24
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "icon",
+          "values": [
+            {
+              "key": "PMA",
+              "value": "url(./assets/pope/pma.png)",
+              "options": {
+                "iconSize": [
+                  24,
+                  24
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "icon",
+          "values": [
+            {
+              "key": "H2O",
+              "value": "url(https://raw.githubusercontent.com/geosdi/funerali-papa-francesco/refs/heads/main/icona_H2O.png)",
+              "options": {
+                "iconSize": [
+                  30,
+                  30
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "propertyKey": "tipo",
+      "properties": [
+        {
+          "property": "fillColor",
+          "values": [
+            {
+              "key": "ACCESSO",
+              "value": "#ff8c00"
+            }
+          ]
+        },
+        {
+          "property": "radius",
+          "values": [
+            {
+              "key": "ACCESSO",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "property": "weight",
+          "values": [
+            {
+              "key": "ACCESSO",
+              "value": "0.5"
+            }
+          ]
+        },
+        {
+          "property": "opacity",
+          "values": [
+            {
+              "key": "ACCESSO",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "property": "fillOpacity",
+          "values": [
+            {
+              "key": "ACCESSO",
+              "value": "0.7"
+            }
+          ]
+        },
+        {
+          "property": "color",
+          "values": [
+            {
+              "key": "ACCESSO",
+              "value": "black"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
