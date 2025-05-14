@@ -1,0 +1,69 @@
+{
+  "global_legend": "",
+  "name": "Messa inizio pontificato Papa Leone XIV",
+  "strategy_features": "not_intersect",
+  "hide_popup": true,
+  "external_logo": "https://raw.githubusercontent.com/geosdi/funerali-papa-francesco/refs/heads/main/roma-pc-giubileo_ridotto.png",
+  "layers": [
+    {
+      "key": 0,
+      "label": "Accessi"
+    },
+    {
+      "key": 1,
+      "label": "Servizi"
+    },
+    {
+      "key": 2,
+      "label": "Zona S.Pietro",
+      "visible": true	
+    }
+
+    
+  ],
+  "today": {
+    "topo_json": [
+      "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/gate.geojson",
+      "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/servizi.geojson",
+      "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/zona_calda_sanpietro.geojson"
+    ]
+  },
+  "extra_layers": [
+    {
+      "file": "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/accessi.geojson",
+      "key": "accessi"
+    },
+    {
+      "file": "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/percorsi.geojson",
+      "key": "percorsi"
+    }
+  ],
+  "style": [
+    "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/gate_style.json",
+    "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/servizi_style.json",
+    "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/zona_calda_style.json"
+  ],
+  "leaflet": {
+    "tooltip": [
+      {
+        "key": 0,
+        "permanent": true,
+        "className": "tooltip-yellow",
+        "properties": [
+          {
+            "key": "nome"
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "permanent": false,
+        "properties": [
+          {
+            "key": "tipo"
+          }
+        ]
+      }
+    ]
+  }
+}
