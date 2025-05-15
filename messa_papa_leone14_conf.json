@@ -6,6 +6,20 @@
   "hide_popup": true,
   "geo_location": true,
   "type_app": "pope",
+  "layers": [
+    {
+      "key": 0,
+      "label": "Gates"
+    },
+    {
+      "key": 1,
+      "label": "Servizi"
+    },
+    {
+      "key": 2,
+      "label": "Zona Calda"
+    }
+  ],
   "today": {
     "topo_json": [
       "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/gate.geojson",
@@ -17,7 +31,10 @@
     {
       "layer": 0,
       "file": "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/percorsi.geojson",
-      "label": "percorso",
+      "keys": [
+        "id",
+        "percorso"
+      ],
       "options": {
         "delay": 800,
         "dashArray": [
