@@ -2,25 +2,10 @@
   "global_legend": "",
   "name": "Messa inizio pontificato Papa Leone XIV",
   "strategy_features": "not_intersect",
-  "hide_popup": true,
   "external_logo": "https://raw.githubusercontent.com/geosdi/funerali-papa-francesco/refs/heads/main/roma-pc-giubileo_ridotto.png",
-  "layers": [
-    {
-      "key": 0,
-      "label": "Accessi"
-    },
-    {
-      "key": 1,
-      "label": "Servizi"
-    },
-    {
-      "key": 2,
-      "label": "Zona S.Pietro",
-      "visible": true	
-    }
-
-    
-  ],
+  "hide_popup": true,
+  "geo_location": true,
+  "type_app": "pope",
   "today": {
     "topo_json": [
       "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/gate.geojson",
@@ -28,14 +13,46 @@
       "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/zona_calda_sanpietro.geojson"
     ]
   },
+  "percorsi": [
+    {
+      "layer": 0,
+      "file": "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/percorsi.geojson",
+      "label": "percorso",
+      "options": {
+        "delay": 800,
+        "dashArray": [
+          48,
+          20
+        ],
+        "weight": 5,
+        "color": "#e106f1",
+        "pulseColor": "#FFFFFF",
+        "paused": false,
+        "reverse": false,
+        "hardwareAccelerated": true
+      }
+    }
+  ],
   "extra_layers": [
     {
       "file": "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/accessi.geojson",
-      "key": "accessi"
-    },
-    {
-      "file": "https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/percorsi.geojson",
-      "key": "percorsi"
+      "key": 0,
+      "properties_keys": [
+        "percorso",
+        "percorso"
+      ],
+      "tooltip": {
+        "property_key": "codice"
+      },
+      "json_style": {
+        "radius": 8,
+        "fillColor": "#ff7800",
+        "color": "#000",
+        "weight": 1,
+        "opacity": 1,
+        "fillOpacity": 0.8
+      },
+      "layer": 0
     }
   ],
   "style": [
