@@ -28,11 +28,11 @@
           "values": [
             {
               "key": "AMBULANZA",
-              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/ambulanza.png)",
+              "value": "url(https://raw.githubusercontent.com/geosdi/Messa-inizio-pontificato-Papa-Leone-XIV/refs/heads/main/ambulance.svg)",
               "options": {
                 "iconSize": [
-                  24,
-                  24
+                  20,
+                  20
                 ]
               }
             }
